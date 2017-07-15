@@ -16,7 +16,7 @@ run the application (instead of root)
 ### Build the project
 
     docker-compose build
-    docker-compose run webapp rails new . --force --database=postgresql
+    docker-compose run web rails new . --force --database=postgresql
 
 ### Modify the `config/database.yml` as follows:
 
